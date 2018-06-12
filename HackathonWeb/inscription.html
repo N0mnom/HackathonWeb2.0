@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="styleinscrip.css">
+
+  </head>
+  <body style="background-color:#0d0e10">
+    <div class="inscription" style="color:#75fa7e">
+        <h1 id="tinscr">INSCRIPTION</h1>
+      <form id="inscription" name="inscription">
+          <label for="nom">Nom:</label>
+          <input id="nom" type="text" name="nom" placeholder="Entrez votre nom de famille">
+        <br><br>
+          <label for="prenom">Prénom:</label>
+          <input id="prenom" type="text" name="prenom" placeholder="Entrez votre prénom">
+        <br><br>
+          <label for="mail">Email:</label>
+          <input id="mail" type="text" name="mail" placeholder="Entrez votre adresse email">
+        <br><br>
+          <label for="mdp">Mot de passe:</label>
+          <input id="mdp" type="password" name="mdp" placeholder="Entrez votre mot de passe">
+        <br><br>
+          <label for="sexe">Sexe:</label>
+        <br>
+          <input id="sexe" type="radio" name="sexe">Homme
+        <br>
+          <input id="sexe" type="radio" name="sexe">  Femme
+        <br>
+          <input id="sexe" type="radio" name="sexe">  Autre
+        <br><br>
+          <label for="année">Année Scolaire:</label>
+          <select name="année">
+            <option value="1">1ère</option>
+            <option value="2">2ème</option>
+            <option value="3">3ème</option>
+            <option value="4">4ème</option>
+            <option value="5">5ème</option>
+            <option value="6">6ème</option>
+            <option value="A">Ancien</option>
+          </select>
+          <br><br>
+          <input id="roi"type="checkbox" name="roi">
+          <label for="roi">J'accepte le
+            <a href="roi.pdf" style="color:white">Règlement d'Ordre Intérieur </a>
+             de l'Athénée Royal de Nivelles</label>
+             <br>
+          <input type="submit" name="send" value="Je m'inscris !!">
+      </form>
+    </div>

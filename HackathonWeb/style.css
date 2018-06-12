@@ -1,0 +1,41 @@
+#logoimg {
+  width: 300px;
+  float: left;
+}
+
+#boutontop p {
+  display: inline;
+  border-top: 2px;
+  border-top-color: #75fa7e;
+  border-top-style: ridge;
+  float: right;
+  position: relative;
+  right: 30px
+  border-bottom: 2px;
+  border-bottom-color: #75fa7e;
+  border-bottom-style: ridge;
+  font-size: 20px
+}
+
+div a {
+  color: #75fa7e;
+}
+
+#centerleft {
+  float: left;
+
+}
+
+#centerright {
+  float: right;
+}
+
+#centercenter {
+  position: relative;
+  left: 13px
+}
+
+footer p {
+  position: relative;
+  left: 300px
+}
